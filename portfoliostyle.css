@@ -49,3 +49,56 @@ footer {
     text-align: center;
     padding: 10px;
 }
+
+*{
+    margin: 0;
+   
+
+}
+
+
+.header_right  img{ 
+     height: 19px;
+    width: 20px;
+    border-radius: 100Px;
+
+
+}
+
+/* header */
+.header1{
+   display:flex;
+   justify-content: space-between;
+   padding: 20px 30px;
+   align-items: center;
+   color: rgba(0, 0, 255, 0.288);
+   text-decoration:none;
+}
+.header_left a{
+    color:rgba(29, 91, 184, 0.966);
+
+}
+
+.header a{
+    margin-right: 20px;
+    /* color:rgb(0, 0, 0.87); */
+    font-size: 15px;
+    text-decoration:inherit;
+    color: #f8f8f8;
+
+}
+.header a:hover{
+    text-decoration: underline;
+}
+.header_right{
+    display:flex;
+    align-items:center;
+    min-width:13vw;
+    justify-content:space-between;
+    text-decoration: none;
+
+}
+.header_right.header_apps{
+    margin-right: 10px;
+
+}
